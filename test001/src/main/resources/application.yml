@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: ROOT
+mybatis-plus:
+  type-aliases-package: xyz.sunpxit.domino
+  mapper-locations: classpath:mappers/*.xml
+
+
+
+
